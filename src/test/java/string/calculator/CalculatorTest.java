@@ -7,6 +7,6 @@ public class CalculatorTest {
 
 	@Test
 	public void shouldAnswerWithTrue() {
-		Assert.assertEquals(Calculator.getHelloWorld(), "Hello World!");
+		Assert.assertEquals(Calculator.add(""), 0);
 	}
 }
